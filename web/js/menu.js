@@ -1,3 +1,4 @@
+
 // функция прилипающего меню
 $(function(){
     $(window).scroll(function() {
@@ -17,4 +18,3 @@ $('menu .buttom_menu').click(function(){
 $('body').click(function(){
     $('menu .buttom_menu').removeClass('active_menu');
 });
-
