@@ -49,12 +49,12 @@ class Message extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'm_title' => 'M Title',
-            'm_text' => 'M Text',
-            'm_date_registration' => 'M Date Registration',
-            'm_date_upgrate' => 'M Date Upgrate',
-            'm_status' => 'M Status',
-            'rel_user_id' => 'Rel User ID',
+            'm_title' => 'Заголовок ',
+            'm_text' => 'Сообщение',
+            'm_date_registration' => 'Дата создания',
+            'm_date_upgrate' => 'Дата редакктирования',
+            'm_status' => 'Статус',
+            'rel_user_id' => 'Пользователь',
         ];
     }
 

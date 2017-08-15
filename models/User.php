@@ -49,13 +49,13 @@ class User extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'name' => 'Name',
-            'surname' => 'Surname',
-            'patronymic' => 'Patronymic',
-            'password' => 'Password',
-            'date_registration' => 'Date Registration',
-            'date_update' => 'Date Update',
-            'user_role' => 'User Role',
+            'name' => 'Имя',
+            'surname' => 'Фамилия',
+            'patronymic' => 'Отчество',
+            'password' => 'Пароль',
+            'date_registration' => 'Дата регистрации',
+            'date_update' => 'Дата редактирования',
+            'user_role' => 'Статус',
         ];
     }
 
